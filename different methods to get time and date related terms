@@ -1,0 +1,32 @@
+const d = new Date();
+d.setMonth(11);  //to set month  
+
+const date = new Date(); //to get the current time
+
+const d = new Date("2021-03-25");
+d.getFullYear(); // to get full year
+
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+const d = new Date("2021-03-25");
+let month = months[d.getMonth()]; //an array of names to return the month as a name
+'
+
+const d = new Date("2021-03-25");
+d.getDate(); // to get date
+
+const d = new Date("2021-03-25");
+d.getHours(); // to get Hours
+
+const d = new Date("2021-03-25");
+d.getMinutes();// to get minute
+
+const d = new Date("2021-03-25");
+d.getSeconds(); // to get seconds
+
+
+
+const d = new Date("2021-03-25");
+d.getMilliseconds(); // to get milli-seconds
+
+
